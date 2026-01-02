@@ -2,13 +2,19 @@
 # FRONTEND
 # ======================
 /autobmobili_front/node_modules/
-*/dist/
-/autobmobili_front/build/
 /autobmobili_front/.pnp
 /autobmobili_front/.pnp.js
-/autobmobili_front/coverage
-/autobmobili_front/.cache/
+/autobmobili_front/coverage/
+/autobmobili_front/build/
+
+# misc / env
 /autobmobili_front/.env
+/autobmobili_front/.DS_Store
+
+# logs
+/autobmobili_front/npm-debug.log*
+/autobmobili_front/yarn-debug.log*
+/autobmobili_front/yarn-error.log*
 
 # ======================
 # BACKEND (Java / Maven)
@@ -19,10 +25,12 @@
 /automobili_back/nb-configuration.xml
 /automobili_back/nbactions.xml
 /automobili_back/.netbeans_automatic_build
+/automobili_back/logs/
+
+# ignore large build artifacts
 /automobili_back/target/**/*.jar
 /automobili_back/target/**/*.war
 /automobili_back/target/**/*.class
-/automobili_back/logs/
 
 # ======================
 # SYSTEM FILES
@@ -38,10 +46,3 @@ Thumbs.db
 .env.development.local
 .env.test.local
 .env.production.local
-
-# ======================
-# LOGS
-# ======================
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
