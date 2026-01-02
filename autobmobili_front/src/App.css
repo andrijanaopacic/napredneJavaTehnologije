@@ -1,0 +1,40 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; padding-top: 80px; }
+.container {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  overflow-x: auto;
+}h2 { margin-bottom: 10px; }
+.row-gap { display:flex; gap:10px; margin-bottom:15px; flex-wrap: wrap; }
+input, select { padding:5px 8px; border-radius:4px; border:1px solid #aaa; }
+button { padding:5px 10px; border:none; border-radius:4px; cursor:pointer; }
+button:hover { opacity:0.9; }
+ul { list-style:none; padding:0; }
+li { padding:5px 0; border-bottom:1px solid #eee; display:flex; justify-content: space-between; }
+.nav {
+  display: flex;
+  justify-content: center; /* centriraj linkove ili koristi space-around/space-between po želji */
+  align-items: center;
+  flex-wrap: wrap; /* dozvoli da prelome ako nema mesta */
+  gap: 20px;
+  background: #333;
+  padding: 12px 16px;
+  box-sizing: border-box; /* sprečava da padding uveća širinu */
+  max-width: 100%;
+  overflow-x: auto; /* omogući horizontalni scroll ako ipak ne stanu */
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 10px;
+  white-space: nowrap; /* da ne prelamaju tekst */
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

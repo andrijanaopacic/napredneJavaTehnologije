@@ -1,0 +1,116 @@
+/* Osnovna pozadina i font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111; /* tamna pozadina stranice */
+  color: #fff; /* tekst u kontrastu */
+}
+
+/* Kontejner oko svega */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ff8800;
+  border-radius: 10px;
+  background-color: #222;
+  box-shadow: 0 0 10px rgba(255, 136, 0, 0.5);
+  overflow-x: auto; /* horizontalni scroll ako tabela prelazi kontejner */
+}
+
+/* Naslov stranice */
+h2 {
+  margin-bottom: 15px;
+  color: #ff8800; /* naslov u narandžastoj */
+}
+
+/* Forma i dropdown/input elementi */
+.row-gap {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background-color: #333;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff8800;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  margin: 5px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Poruke */
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ff8800;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  min-width: 1100px; /* tabela ne sme da se sabije previše */
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #ff8800;
+  table-layout: fixed; /* ravnomerna širina kolona */
+}
+
+th, td {
+  padding: 12px 15px; /* veći padding */
+  border: 1px solid #ff8800;
+  text-align: left;
+  word-break: break-word;
+}
+
+
+thead {
+  background-color: #ff8800; /* zaglavlje narandžasto */
+  color: #111;
+}
+
+
+tr:nth-child(even) {
+  background-color: #2a2a2a; /* naizmenična boja redova */
+}
+
+tr:hover {
+  background-color: #444; /* hover efekat */
+}
+
+/* Linkovi u tabeli (URL slike) */
+table a {
+  color: #ff8800;
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+

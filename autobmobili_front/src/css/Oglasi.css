@@ -1,0 +1,40 @@
+/* Dugmad u modalu */
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+/* Povećan razmak između dugmadi u tabeli */
+.table td button {
+    margin-right: 8px;
+}
+
+/* Stil za checkbox da bude narandžast sa crnosivom štiklom */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff6600; /* narandžasta ivica */
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ff6600; /* narandžasta pozadina */
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✔";
+  color: #1a1a1a; /* tamno siva štiklira */
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-size: 16px;
+  line-height: 18px;
+}
