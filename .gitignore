@@ -1,0 +1,18 @@
+# Backend (Spring Boot / Maven)
+softveri_server_ANDRIJANA/target/
+softveri_server_ANDRIJANA/.idea/
+softveri_server_ANDRIJANA/*.iml
+softveri_server_ANDRIJANA/.classpath
+softveri_server_ANDRIJANA/.project
+softveri_server_ANDRIJANA/.settings/
+softveri_server_ANDRIJANA/*.log
+
+# Frontend (React / Node)
+softveri_klijent_ANDRIJANA/node_modules/
+softveri_klijent_ANDRIJANA/build/
+softveri_klijent_ANDRIJANA/.env
+
+# Generalno
+*.log
+*.tmp
+.DS_Store
