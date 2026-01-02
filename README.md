@@ -1,4 +1,4 @@
-# Aplikacija za prodaju autobila
+# Aplikacija za prodaju automobila
 
 U ovom projektu razvijen je softverski sistem koji omogućava postavljanje i upravljanje oglasima za automobile. Serverski deo aplikacije realizovan je pomoću Spring Boot okvira, dok je klijentski deo napravljen u React tehnologiji. 
 Sistem omogućava korisnicima da dodaju nove oglase, filtriraju automobile po različitim kriterijumima kao što su marka, model, cena ili vrsta goriva, i da pregledaju detalje o svakom oglasu. Administratori imaju dodatnu kontrolu nad oglasima, uključujući mogućnost aktiviranja ili deaktiviranja oglasa, dodavanja, brisanja ili promene.
