@@ -7,6 +7,8 @@
 /autobmobili_front/.pnp
 /autobmobili_front/.pnp.js
 /autobmobili_front/coverage
+/autobmobili_front/.cache/
+/autobmobili_front/.env
 
 # ======================
 # BACKEND (Java / Maven)
@@ -17,6 +19,10 @@
 /automobili_back/nb-configuration.xml
 /automobili_back/nbactions.xml
 /automobili_back/.netbeans_automatic_build
+/automobili_back/target/**/*.jar
+/automobili_back/target/**/*.war
+/automobili_back/target/**/*.class
+/automobili_back/logs/
 
 # ======================
 # SYSTEM FILES
