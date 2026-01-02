@@ -1,23 +1,41 @@
+# ======================
+# FRONTEND
+# ======================
+/autobmobili_front/node_modules/
+*/dist/
+/autobmobili_front/build/
+/autobmobili_front/.pnp
+/autobmobili_front/.pnp.js
+/autobmobili_front/coverage
 
+# ======================
+# BACKEND (Java / Maven)
+# ======================
+/automobili_back/target/
+/automobili_back/*.iml
+/automobili_back/.idea/
+/automobili_back/nb-configuration.xml
+/automobili_back/nbactions.xml
+/automobili_back/.netbeans_automatic_build
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# ======================
+# SYSTEM FILES
+# ======================
 .DS_Store
+Thumbs.db
+
+# ======================
+# ENV / CONFIG / SECRETS
+# ======================
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# ======================
+# LOGS
+# ======================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
