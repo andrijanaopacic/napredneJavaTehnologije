@@ -1,17 +1,21 @@
-# ======================
-# FRONTEND
-# ======================
+# dependencies
 /autobmobili_front/node_modules/
 /autobmobili_front/.pnp
 /autobmobili_front/.pnp.js
-/autobmobili_front/coverage/
-/autobmobili_front/build/
 
-# misc / env
-/autobmobili_front/.env
+# testing
+/autobmobili_front/coverage
+
+# production
+/autobmobili_front/build
+
+# misc
 /autobmobili_front/.DS_Store
+/autobmobili_front/.env.local
+/autobmobili_front/.env.development.local
+/autobmobili_front/.env.test.local
+/autobmobili_front/.env.production.local
 
-# logs
 /autobmobili_front/npm-debug.log*
 /autobmobili_front/yarn-debug.log*
 /autobmobili_front/yarn-error.log*
@@ -31,18 +35,3 @@
 /automobili_back/target/**/*.jar
 /automobili_back/target/**/*.war
 /automobili_back/target/**/*.class
-
-# ======================
-# SYSTEM FILES
-# ======================
-.DS_Store
-Thumbs.db
-
-# ======================
-# ENV / CONFIG / SECRETS
-# ======================
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
